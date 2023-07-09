@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 body {
   font-family: "Open Sans", sans-serif;
   /* width: 1600px;
@@ -131,7 +131,7 @@ main section {
 }
 .about-info {
   text-align: center;
-  line-height: 30px;
+  line-height: 10px;
 }
 
 /* what i do styles */
@@ -219,7 +219,9 @@ margin-top: 100px;
   width: 50%;
   
 }
-
+#connect-p{
+  text-align: left;
+}
 .contact input[type="text"], .contact input[type="email"], textarea{
 display: block;
 margin-bottom: 25px;
@@ -231,8 +233,12 @@ border-radius: 5px;
 background-color: #fff;
 width: 100%;
 }
-
+.social-links{
+  margin-top: 50px;
+}
 .social-links a{
   margin-right: 25px;
-  
+}
+textarea{
+  font-family: "Open Sans", sans-serif;
 }
