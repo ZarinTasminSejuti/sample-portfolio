@@ -114,6 +114,7 @@ main section {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .section-description {
@@ -135,7 +136,8 @@ main section {
 
 /* what i do styles */
 #whatido-description {
-  padding: 20px 150px;
+  padding: 0px 150px;
+ 
 }
 
 /* skill section */
@@ -143,6 +145,7 @@ main section {
 .skills-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .skill {
@@ -164,4 +167,41 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.resume-item-title{
+  color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+#resume-heading{
+  margin-bottom: 100px;
+}
+.resume-container hr{
+  margin: 30px;
+}
+/* button download cv */
+
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
