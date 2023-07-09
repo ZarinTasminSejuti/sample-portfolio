@@ -120,3 +120,22 @@ line-height: 30px;
   text-align: center;
   line-height: 10px;
 }
+
+/* what i do styles */
+#whatido-description{
+padding: 20px 150px;
+}
+
+/* skill section */
+
+.skills-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #FFF;
+  box-shadow: 0 6px 50px 0px rgba(0,0, 0, 0.06);
+}
