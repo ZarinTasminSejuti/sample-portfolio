@@ -1,13 +1,13 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+
 body {
   font-family: "Open Sans", sans-serif;
   /* width: 1600px;
   height: 4256px; */
-  margin: 0;
-  padding: 0;
   background-color: #ffffff;
 }
 
@@ -99,8 +99,7 @@ nav a {
 }
 
 .banner-description {
-  width: 585px;
-  margin-top: 20px;
+  margin: 30px 0px;
   color: #757575;
   font-size: 18px;
   line-height: 30px;
@@ -142,23 +141,23 @@ main section {
 .about_me_contact {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 .about-info {
   text-align: center;
-  line-height: 10px;
+  line-height: 30px;
 }
 
 /* what i do styles */
 #what-i-do-description {
   padding: 30px 150px;
-  margin: 0;
 }
 
 /* skill section */
 
 .skills-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 30px;
 }
 
@@ -167,8 +166,7 @@ main section {
   padding: 30px;
   background-color: #fff;
   box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
-  width: 211px;
-  /* width:267px */
+  width: 248px;
   height: auto;
 }
 
@@ -266,18 +264,33 @@ textarea{
 } */
 
 @media screen and (max-width:576px) {
-  .skills-container, .resume-container, footer{
+
+  .header{
+    background-image: none;
+  }
+
+  nav, nav > ul, .banner, .skills-container, .resume-container, .about_me_contact, footer{
     flex-direction: column;
   }
-.section-description{
+
+nav > ul{
+  gap: 10px;
+}
+  .banner .profile-pic {
+    width: 100%;
+  }
+
+.banner,  #what-i-do-description{
     padding: 20px;
-    margin: 0;
   }
   .section-title{
     text-align: left;
   }
-  footer{
+  footer, .about_me{
     padding: 10px;
+  }
+  .btn-primary{
+    margin-bottom: 15px;
   }
   .footer-column{
     width: 100%;  
@@ -287,8 +300,11 @@ textarea{
     }
 }
 
-@media screen and (min-width:577px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:960px) {
   footer{
     padding: 30px;
+  }
+  .btn-primary{
+    margin-bottom: 15px;
   }
 }
